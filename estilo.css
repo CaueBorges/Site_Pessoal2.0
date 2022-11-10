@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Qwitcher+Grypen&display=swap');
+html,body,header,#intro{height:100%; font-family: 'Bebas Neue', cursive;}
+
+.navbar{
+    background: #212529;
+}
+.navbar-collapse {
+    flex-direction: column;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size: 19px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(139, 139, 139);
+    font-size: 19px;
+}
+.navbar-brand{
+    
+    background: linear-gradient(to left, rgb(255, 255, 255),rgb(100, 100, 100));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    text-transform: uppercase;font-weight: 700;
+    font-size: 36px;
+}
+#intro{
+
+    background: linear-gradient(to right, #202020be, #000000be) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ,url("Imagens/fundo.jpg") no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover
+}
+
+.topo h1{font-size:60px;font-weight:900;font-family:'Roboto', sans-serif;color:rgb(200, 200, 200)}
+
+.topo p{font-size:25px;font-family:'Roboto', sans-serif;color:#fff}
+
+.topo a{color:#fff;font-size:50px;text-decoration:none;outline:none;display:block;position:absolute;bottom:20px;right:0;left:0;margin:0 auto;width:32px}
+
+.topo .centralizar{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}@media (max-width: 400px){
+    
+.topo h1{font-size:50px}.topo p{font-size:21px}}.sobre{width:100%;height:auto;text-align:center}
+
+.sobre h1{text-align:center;font-size:40px;font-weight:700;font-family:'Roboto', sans-serif;color:#212529}
+
+.sobre p{font-size:23px;font-family:'Roboto', sans-serif;color:#212529;text-align:justify}
+
+
+#destaques {
+    background-color: #fff;
+}
+footer{
+    color: #fff;
+    background-color: #191a1b;
+    font-size: 1rem;
+}
+
+.balao {
+    width: 320px;
+    float: left;
+    text-align: left;
+    background-image: url(imagens/balao.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    padding: 10px 5px;
+}
+.recado{
+    margin: 5px 20px;
+}
+.nome {
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 1.2rem;
+    text-align: center;
+}
